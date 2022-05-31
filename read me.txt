@@ -1,0 +1,4 @@
+This project is aimed at creating a simple and user friendly porfolio site for Myself
+Its a good one for those that would want to have a glimse of how my coding techniques would look like.
+
+Let's do this!
