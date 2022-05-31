@@ -1,0 +1,10 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#window{
+    background-color: blue;
+    height:100%;
+    margin:0px;
+    padding: 0px 1.5%;
+}
