@@ -9,8 +9,11 @@ body{
     background-color: #d2d3dd8c;
     overflow-y: scroll;
 }
-p,h1,h2,h3,h4,h5,h6,span,b,i,a,ul,li{
+p,h1,h2,h3,h4,h5,h6,span,i,a{
     color: #ffffff;
+}
+ul{
+    list-style-type: none;
 }
 a{
     color: #ffffff !important; 
@@ -95,7 +98,7 @@ button,input{
 
 /* top nav*/
 .nav{
-    background-image: linear-gradient( to bottom, #160871, #06043a);
+    background-image: linear-gradient(to bottom,  #183153, #24308a);
     width: 100%;
     height: 50px;
     background-attachment: fixed; 
@@ -145,11 +148,11 @@ button,input{
 .social-float{
     width: 30px;
     height: auto;
-    position: absolute;
+    position: fixed;
     background-color: white;
     z-index: 20;
     top: 200px;
-    right: 0px;
+    right: 0%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -175,6 +178,9 @@ button,input{
 .blue{
     color: blue !important;
 }
+.green{
+    color: green;
+}
 .twitter-color{
     color: #35acf0 !important;
 }
@@ -186,7 +192,7 @@ button,input{
 .note-container{
     width: 100%;
     height: 500px;
-    background-color: #1f1a0250;
+    background-color: #000000b3;
     text-align: center;
     background-clip: content-box;
 }
@@ -199,7 +205,7 @@ button,input{
 }
 .welcome-note{
     background-image: url("../img/hero-bg.jpg");
-    background-attachment: fixed;
+     background-attachment: fixed;
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
@@ -220,22 +226,60 @@ button,input{
     height: 50px;
     width: 200px;
     border-radius: 5px;
-    border: 3px solid #12065e;
+    border: 3px solid #183153;
     margin-top: 2%;
     transition-duration: 500ms;
 }
 .start-yes>a{
-    background-color:  #12065e;
+    background-color:  #183153;
 }
 .start-yes>a:hover{
     background-color:  #16087100;
 }
 .start-no>a:hover{
-    background-color: #12065e;
+    background-color: #183153;
 }
+.vd-case{
+    margin-top: 1.5%;
+    background-color: #18315320;
+}
+.values,.drives{
+    width: 40%;
+    height: auto;
+}
+.values ul,.drives ul{
+    font-size: larger;
+}
+.values ul{
+    width: 100%;
+    text-align: right;
+    padding-right: 5%;
+}
+.vd-list li{
+    height: 50px;
+}
+.vd-list li b{
+    font-size: 25px;
+    padding: 0px 20px;
+}
+.values h2,.drives h2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 3%;
+}
+.values h2 b::before,.drives h2 b::before{
+    margin-left: 50px;
+}
+.vertical-line{
+    height: 60%;
+    margin-top: 3.5%;
+    border-left: 2px solid black;
+}
+
 .services{
     margin: 0px !important;
-    padding: 0px !important;
+    padding: 0px !important;    
 }
 .services>h2{
     width:100%;
@@ -244,7 +288,7 @@ button,input{
     margin-top: 20px;
     margin-bottom: 20px;
     background-image:linear-gradient(to right, 
-    #dedee94b, #06043a29,#dedee94b ) ;
+    #dedefae2, #9e9dc6,#eaeaf7d0 ) ;
 }
 .serve,.serve-pix{
    width: 45%;
@@ -254,9 +298,7 @@ button,input{
    margin-left: 20px;
    border-radius: 10px;  
 }
-.serve{
-    
-}
+
 .light-back{
     background-color: #a9a4a4;
 }
